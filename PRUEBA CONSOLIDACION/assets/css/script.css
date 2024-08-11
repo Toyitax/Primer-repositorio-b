@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  cursor: wait;
+}
+
+.titulo {
+  margin-top: 11rem;
+  margin-left: 10rem;
+  padding-right: 13rem;
+  font-family: "Miltonian";
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.container {
+  margin-left: 10rem;
+}
+h2 {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Roboto Condensed", serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+.container2 {
+  margin-left: 11rem;
+  margin-right: 13rem;
+}
+body {
+  background-image: url(/PRUEBA\ CONSOLIDACION/assets/img/fondo3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0%;
+  background-color: black;
+  color: white;
+  justify-content: top;
+}
+
+h4 {
+  font-family: "Amatic SC", serif;
+  font-weight: 900;
+  font-size: 2rem;
+  align-items: self-start;
+}
+
+form {
+  text-align: center;
+  font-size: large;
+}
+
+.form-control {
+  background-color: black;
+  color: white;
+}
+
+.container3 {
+  margin-top: 1rem;
+  justify-content: space-between;
+  image-rendering: auto;
+}
+
+#redes_sociales {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  padding-left: 11rem;
+  padding-top: 1rem;
+  text-align: left;
+}
+
+.caja {
+  margin-right: 40rem;
+  padding: 3px 10px;
+  border: rgb(19, 98, 216) 5px solid;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: "Lakki Reddy";
+  font-size: 1rem;
+}
+
+footer {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  text-align: center;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  bottom: 0%;
+  color: white;
+}
+
+@media (max-width: 575px) {
+  .fondo {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+  }
+}
